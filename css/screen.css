@@ -279,7 +279,7 @@ nav a.active { color: #fff; }
 
 footer { padding: 50px 0 50px 0; font-size: 1.1em; position: relative; background: #2b2b40; color: #fff; }
 
-footer .copyright { font-size: .8em; margin: 0 auto; }
+footer .copyright { font-size: .8em; margin: 0 auto; text-align: center; }
 
 @media (min-width: 450px) { footer .copyright { text-align: center; } }
 
