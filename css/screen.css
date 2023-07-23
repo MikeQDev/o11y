@@ -308,3 +308,14 @@ nav .editor-link:hover, .editor-link .btn:hover, nav .nav-open nav .editor-link:
 .cms-editor-active .editor-link { display: block; }
 
 .cms-editor-active nav .editor-link { display: inline; }
+
+.quadrant { display: flex; flex-wrap: wrap; }
+
+@media (min-width: 768px) {
+  .quadrant .quad { flex: 0 0 50%; max-width: 49%; }
+  .quadrant .quad .quad-content { padding: 20px; }
+  .quadrant .quad:nth-child(odd) { border-right: 1px solid #e9edf9; }
+  .quadrant .quad:nth-last-child(n+3) { border-bottom: 1px solid #e9edf9; }
+}
+.quadrant .quad-header { font-weight: bold; color: black; }
+.quadrant .quad .material-symbols-outlined { color: #4182e4; padding: 5px; border: 1px solid #f9f9f9; border-radius: 5px; box-shadow: 0 2px 4px; user-select: none }
